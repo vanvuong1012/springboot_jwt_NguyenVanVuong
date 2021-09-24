@@ -17,8 +17,8 @@ import java.util.Date;
 @Component
 public class JwtUtil {
     private static Logger logger = (Logger) LoggerFactory.getLogger(JwtUtil.class);
-    private static final String USER = "nhuy";
-    private static final String SECRET = "alo Mr Y the secrect length must be at least 256 bits" +
+    private static final String USER = "vanvuong";
+    private static final String SECRET = "alo Mr Vuong the secrect length must be at least 256 bits" +
             " please no reveal!";
 
     public String generateToken(UserPrincipal user) {
