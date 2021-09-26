@@ -1,14 +1,14 @@
 package com.example.spring_boot_jwt_nguyenvanvuong.authen;
 
-import lombok.Data;
+//import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
-import org.springframework.security.core.GrantedAuthority;
+//import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
 import java.util.Collection;
 
-@Data
+//@Data
 @Getter
 @Setter
 public class UserPrincipal implements UserDetails {
@@ -17,20 +17,20 @@ public class UserPrincipal implements UserDetails {
     private String password;
     private Collection authorities;
 
-    @Override
-    public Collection<? extends GrantedAuthority> getAuthorities() {
-        return authorities;
-    }
-
-    @Override
-    public String getPassword() {
-        return password ;
-    }
-
-    @Override
-    public String getUsername() {
-        return username;
-    }
+//    @Override
+//    public Collection<? extends GrantedAuthority> getAuthorities() {
+//        return authorities;
+//    }
+//
+//    @Override
+//    public String getPassword() {
+//        return password ;
+//    }
+//
+//    @Override
+//    public String getUsername() {
+//        return username;
+//    }
 
     @Override
     public boolean isAccountNonExpired() {
