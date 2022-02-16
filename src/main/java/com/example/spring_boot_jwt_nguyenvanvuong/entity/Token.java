@@ -17,4 +17,5 @@ public class Token extends BaseEntity{
     private String token;
 
     private Date tokenExpDate;
+
 }
